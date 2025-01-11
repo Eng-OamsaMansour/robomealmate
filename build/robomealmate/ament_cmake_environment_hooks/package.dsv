@@ -1,0 +1,4 @@
+source;share/robomealmate/local_setup.bash
+source;share/robomealmate/local_setup.dsv
+source;share/robomealmate/local_setup.sh
+source;share/robomealmate/local_setup.zsh

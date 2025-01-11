@@ -1,0 +1,1 @@
+/home/robomealmate/robomealmate/build/serial/ament_cmake_core/serialConfig.cmake

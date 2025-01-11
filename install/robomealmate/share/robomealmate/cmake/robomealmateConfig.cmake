@@ -1,0 +1,1 @@
+/home/robomealmate/robomealmate/build/robomealmate/ament_cmake_core/robomealmateConfig.cmake
