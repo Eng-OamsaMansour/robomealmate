@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robomealmate/robomealmate/install/diffdrive_arduino/include/**",
+        "/home/robomealmate/robomealmate/install/serial/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/robomealmate/robomealmate/src/diffdrive_arduino/include/**",
+        "/home/robomealmate/robomealmate/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

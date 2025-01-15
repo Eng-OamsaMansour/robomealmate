@@ -1,0 +1,12 @@
+[0.014s] Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/serial:/home/robomealmate/robomealmate/install/diffdrive_arduino:/home/robomealmate/robomealmate/install/robomealmate:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j8 -l8
+[0.058s] [35m[1mScanning dependencies of target diffdrive_arduino[0m
+[0.087s] [ 25%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[1.280s] [01m[K/home/robomealmate/robomealmate/src/diffdrive_arduino/src/arduino_comms.cpp:[m[K In member function ‘[01m[Kvoid ArduinoComms::setMotorValues(int, int, int, int)[m[K’:
+[1.280s] [01m[K/home/robomealmate/robomealmate/src/diffdrive_arduino/src/arduino_comms.cpp:82:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCCLPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+[1.280s]    82 |   [01;31m[KRCCLPP_INFO[m[K(rclcpp::get_logger("ArduinoComms"), "Setting motor values: %d %d %d %d", motorA, motorB, motorC, motorD);
+[1.281s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.281s]       |   [32m[KRCLCPP_INFO[m[K
+[1.887s] make[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o] Error 1
+[1.887s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[1.888s] make: *** [Makefile:141: all] Error 2
+[1.890s] Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/serial:/home/robomealmate/robomealmate/install/diffdrive_arduino:/home/robomealmate/robomealmate/install/robomealmate:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j8 -l8

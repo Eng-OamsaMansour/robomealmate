@@ -1,0 +1,44 @@
+[0.018s] Invoking command in '/home/robomealmate/robomealmate/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/serial -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/serial
+[0.039s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.259s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.265s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.333s] -- Configuring done
+[0.350s] -- Generating done
+[0.356s] -- Build files have been written to: /home/robomealmate/robomealmate/build/serial
+[0.362s] Invoked command in '/home/robomealmate/robomealmate/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/serial -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/serial
+[0.363s] Invoking command in '/home/robomealmate/robomealmate/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/serial -- -j8 -l8
+[0.412s] [ 28%] Built target serial
+[0.413s] [ 42%] Built target gtest
+[0.413s] [ 57%] Built target gtest_main
+[0.438s] [ 71%] Built target serial_example
+[0.438s] [ 85%] Built target serial-test
+[0.440s] [100%] Built target serial-test-timer
+[0.458s] Invoked command in '/home/robomealmate/robomealmate/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/serial -- -j8 -l8
+[0.459s] Invoking command in '/home/robomealmate/robomealmate/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/serial
+[0.467s] -- Install configuration: ""
+[0.467s] -- Execute custom install script
+[0.468s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/lib/libserial.a
+[0.468s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/include/serial/serial.h
+[0.468s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/include/serial/v8stdint.h
+[0.469s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/environment/library_path.sh
+[0.469s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/environment/library_path.dsv
+[0.469s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.470s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.470s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.470s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.470s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/environment/path.sh
+[0.470s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/environment/path.dsv
+[0.471s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/local_setup.bash
+[0.471s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/local_setup.sh
+[0.471s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/local_setup.zsh
+[0.471s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/local_setup.dsv
+[0.472s] -- Symlinking: /home/robomealmate/robomealmate/install/serial/share/serial/package.dsv
+[0.482s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/ament_index/resource_index/packages/serial
+[0.482s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.482s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.483s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/cmake/serialConfig.cmake
+[0.483s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.483s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/serial/share/serial/package.xml
+[0.486s] Invoked command in '/home/robomealmate/robomealmate/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/serial

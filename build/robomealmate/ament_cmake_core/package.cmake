@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "robomealmate")
 set(robomealmate_VERSION "0.0.0")
-set(robomealmate_MAINTAINER "MY NAME <my_email@email.com>")
+set(robomealmate_MAINTAINER "Osama Mansour <osamanote2016@gmail.com>")
 set(robomealmate_BUILD_DEPENDS )
 set(robomealmate_BUILDTOOL_DEPENDS "ament_cmake")
 set(robomealmate_BUILD_EXPORT_DEPENDS )

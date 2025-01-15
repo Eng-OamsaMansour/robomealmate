@@ -11,7 +11,7 @@ struct Config
   std::string back_left_wheel_name =  "back_left_wheel";
   std::string back_right_wheel_name = "back_right_wheel";
   float loop_rate = 30;
-  std::string device = "/dev/ttyUSB0";
+  std::string device = "/dev/ttyACM0";
   int baud_rate = 9600;
   int timeout = 1000;
   int enc_counts_per_rev = 1920;

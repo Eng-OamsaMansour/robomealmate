@@ -96,8 +96,8 @@ return_type DiffDriveArduino::start()
   arduino_.sendEmptyMsg();
   // arduino.setPidValues(9,7,0,100);
   // arduino.setPidValues(14,7,0,100);
-  arduino_.setPidValues(30, 20, 0, 100);
-
+ // arduino_.setPidValues(30, 20, 0, 100);
+  arduino_.setMotorValues(30,30,30,30);
   status_ = hardware_interface::status::STARTED;
 
   return return_type::OK;
@@ -113,10 +113,6 @@ return_type DiffDriveArduino::stop()
 
 hardware_interface::return_type DiffDriveArduino::read()
 {
-
-  // TODO fix chrono duration
-
-  // Calculate time delta
   auto new_time = std::chrono::system_clock::now();
   std::chrono::duration<double> diff = new_time - time_;
   double deltaSeconds = diff.count();
@@ -129,6 +125,7 @@ hardware_interface::return_type DiffDriveArduino::read()
   }
 
   arduino_.readEncoderValues(f_l_wheel_.enc, f_r_wheel_.enc, b_l_wheel_.enc, b_r_wheel_.enc);
+  RCLCPP_INFO(logger_, "e" + std::to_string(f_l_wheel_.enc) + " " + std::to_string(f_r_wheel_.enc) + " " + std::to_string(b_l_wheel_.enc) + " " + std::to_string(b_r_wheel_.enc));
   double pos_prev = f_l_wheel_.pos;
   f_l_wheel_.pos = f_l_wheel_.calcEncAngle();
   f_l_wheel_.vel = (f_l_wheel_.pos - pos_prev) / deltaSeconds;
@@ -159,7 +156,7 @@ hardware_interface::return_type DiffDriveArduino::write()
   }
 
   arduino_.setMotorValues(f_l_wheel_.cmd / f_l_wheel_.rads_per_count / cfg_.loop_rate, f_r_wheel_.cmd / f_r_wheel_.rads_per_count / cfg_.loop_rate, b_l_wheel_.cmd / b_l_wheel_.rads_per_count / cfg_.loop_rate, b_r_wheel_.cmd / b_r_wheel_.rads_per_count / cfg_.loop_rate);
-
+  RCLCPP_INFO(logger_, "m" + std::to_string(f_l_wheel_.cmd / f_l_wheel_.rads_per_count / cfg_.loop_rate)+ " " + std::to_string(f_r_wheel_.cmd / f_r_wheel_.rads_per_count / cfg_.loop_rate) + " " + std::to_string(b_l_wheel_.cmd / b_l_wheel_.rads_per_count / cfg_.loop_rate) + " " + std::to_string(b_r_wheel_.cmd / b_r_wheel_.rads_per_count / cfg_.loop_rate));
   return return_type::OK;
 
 
