@@ -200,7 +200,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.15 0.20 0.40"/>
+        <box size="0.15 0.45 0.40"/>
       </geometry>
     </collision>
     <xacro:inertial_box  mass="0.3" x="0.15" y="0.45" z="0.40">

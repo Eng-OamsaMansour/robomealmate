@@ -7,13 +7,12 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     #include robot state publisher launch file 
-    package_name = 'robomealmate'
+    package_name='robomealmate'
     rsp = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(
-            
-            get_package_share_directory(package_name), 'launch', 'rsp.launch.py'
-        )]),launch_arguments={'use_sim_time': 'true'}.items()
-        )
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','rsp.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_controller': 'true'}.items()
+    )
     
     # Launch the Gazebo launch file
     gazebo = IncludeLaunchDescription(
@@ -28,6 +27,8 @@ def generate_launch_description():
         executable='spawn_entity.py',
         arguments=['-topic', '/robot_description', '-entity', 'robomealmate'],
         output='screen')
+    
+
     diff_drive_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
