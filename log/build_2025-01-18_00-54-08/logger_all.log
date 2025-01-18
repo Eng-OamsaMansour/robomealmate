@@ -1,0 +1,225 @@
+[0.184s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.184s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f23fd29eeb0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f23fd29eeb0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f23fd2014c0>)
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.348s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robomealmate/robomealmate'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'python_setup_py'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robomealmate' with type 'ros.ament_cmake' and name 'robomealmate'
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.386s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/robomealmate/robomealmate/install
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/foxy
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robomealmate/robomealmate/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robomealmate/robomealmate/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/robomealmate/robomealmate/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'robomealmate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robomealmate/robomealmate/build/robomealmate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robomealmate/robomealmate/install/robomealmate', 'merge_install': False, 'path': '/home/robomealmate/robomealmate/src/robomealmate', 'symlink_install': True, 'test_result_base': None}
+[0.465s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.466s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robomealmate/robomealmate/src/diffdrive_arduino' with build type 'ament_cmake'
+[0.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robomealmate/robomealmate/src/diffdrive_arduino'
+[0.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robomealmate/robomealmate/src/robomealmate' with build type 'ament_cmake'
+[0.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robomealmate/robomealmate/src/robomealmate'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j8 -l8
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/robomealmate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/robomealmate -- -j8 -l8
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/robomealmate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/robomealmate -- -j8 -l8
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/robomealmate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/robomealmate
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j8 -l8
+[0.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/diffdrive_arduino
+[0.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomealmate)
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/robomealmate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/robomealmate
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake module files
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake config files
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomealmate', 'cmake_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.sh'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/pkgconfig/robomealmate.pc'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/python3.8/site-packages'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.sh'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.bash'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.zsh'
+[0.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/robomealmate/share/colcon-core/packages/robomealmate)
+[0.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomealmate)
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake module files
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake config files
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomealmate', 'cmake_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.sh'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/pkgconfig/robomealmate.pc'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/python3.8/site-packages'
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[0.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.sh'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.bash'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.zsh'
+[0.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/robomealmate/share/colcon-core/packages/robomealmate)
+[0.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/diffdrive_arduino
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake module files
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake config files
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib'
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/python3.8/site-packages'
+[0.631s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[0.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake module files
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake config files
+[0.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib'
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/python3.8/site-packages'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[0.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[0.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.643s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.652s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.800s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.ps1'
+[0.803s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robomealmate/robomealmate/install/_local_setup_util_ps1.py'
+[0.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.ps1'
+[0.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robomealmate/robomealmate/install/_local_setup_util_sh.py'
+[0.808s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.sh'
+[0.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.bash'
+[0.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.bash'
+[0.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.zsh'
+[0.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.zsh'
