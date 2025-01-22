@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rplidar_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_client-0c5e65a37394810450cd.json",
+					"name" : "rplidar_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_composition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_composition-bbfa3ea61f77b45ad97b.json",
+					"name" : "rplidar_composition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_node-2b0724106b137c481e93.json",
+					"name" : "rplidar_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_ros_uninstall-fd9ea2b615704b53c2a5.json",
+					"name" : "rplidar_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e31f232e9badaf99db9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robomealmate/robomealmate/build/rplidar_ros",
+		"source" : "/home/robomealmate/robomealmate/src/rplidar_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

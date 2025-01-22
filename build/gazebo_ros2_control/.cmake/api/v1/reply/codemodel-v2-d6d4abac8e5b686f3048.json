@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gazebo_ros2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_hardware_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_hardware_plugins-049705c4fbd776b95fdb.json",
+					"name" : "gazebo_hardware_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros2_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros2_control-a32485b20d16e5c486b4.json",
+					"name" : "gazebo_ros2_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros2_control_uninstall-e5c90352fb46c2681d75.json",
+					"name" : "gazebo_ros2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-82697b340f7287140e21.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robomealmate/robomealmate/build/gazebo_ros2_control",
+		"source" : "/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

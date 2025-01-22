@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robomealmate/robomealmate/build/robomealmate
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/controller.yaml
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/empty.yaml
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/mapper_params_online_async.yaml
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/camera.xacro
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/gazebo_controller.xacro
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/inertial_macros.xacro
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/lidar.xacro
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/robot.urdf.xacro
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/robot_core.xacro
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/ros2_controller.xacro
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/camera.launch.py
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/lidar.launch.py
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/robot.launch.py
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/rsp.launch.py
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/simulation.launch.py
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/worlds/empty.world
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/worlds/tables.world
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/package_run_dependencies/robomealmate
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/parent_prefix_path/robomealmate
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/ament_prefix_path.sh
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/path.sh
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/path.dsv
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.bash
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.sh
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.zsh
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.dsv
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.dsv
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/packages/robomealmate
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/cmake/robomealmateConfig.cmake
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/cmake/robomealmateConfig-version.cmake
+-- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.xml

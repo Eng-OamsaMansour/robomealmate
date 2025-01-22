@@ -1,0 +1,41 @@
+[0.276s] Invoking command in '/home/robomealmate/robomealmate/build/robomealmate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/robomealmate -- -j4 -l4
+[0.773s] Invoked command in '/home/robomealmate/robomealmate/build/robomealmate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/robomealmate -- -j4 -l4
+[0.867s] Invoking command in '/home/robomealmate/robomealmate/build/robomealmate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/robomealmate
+[0.938s] -- Install configuration: ""
+[0.947s] -- Execute custom install script
+[0.959s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/controller.yaml
+[0.959s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/empty.yaml
+[0.962s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/mapper_params_online_async.yaml
+[0.962s] -- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/nav2_params.yaml
+[1.040s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/sim_mode_controller.yaml
+[1.043s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/twist_mux.yaml
+[1.047s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/camera.xacro
+[1.048s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/gazebo_controller.xacro
+[1.050s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/inertial_macros.xacro
+[1.053s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/lidar.xacro
+[1.055s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/robot.urdf.xacro
+[1.060s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/robot_core.xacro
+[1.061s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/ros2_controller.xacro
+[1.070s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/camera.launch.py
+[1.073s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/lidar.launch.py
+[1.077s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/robot.launch.py
+[1.078s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/rsp.launch.py
+[1.079s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/simulation.launch.py
+[1.084s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/worlds/empty.world
+[1.084s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/worlds/tables.world
+[1.085s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/package_run_dependencies/robomealmate
+[1.086s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/parent_prefix_path/robomealmate
+[1.095s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/ament_prefix_path.sh
+[1.095s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/ament_prefix_path.dsv
+[1.096s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/path.sh
+[1.097s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/path.dsv
+[1.097s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.bash
+[1.098s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.sh
+[1.100s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.zsh
+[1.102s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.dsv
+[1.104s] -- Symlinking: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.dsv
+[1.158s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/packages/robomealmate
+[1.161s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/cmake/robomealmateConfig.cmake
+[1.163s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/cmake/robomealmateConfig-version.cmake
+[1.167s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.xml
+[1.179s] Invoked command in '/home/robomealmate/robomealmate/build/robomealmate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/robomealmate

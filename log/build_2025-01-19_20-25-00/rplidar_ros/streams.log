@@ -1,0 +1,54 @@
+[0.758s] Invoking command in '/home/robomealmate/robomealmate/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/rplidar_ros -- -j4 -l4
+[2.466s] [  5%] Built target rplidar_client
+[3.406s] [ 52%] Built target rplidar_node
+[4.329s] [100%] Built target rplidar_composition
+[4.729s] Invoked command in '/home/robomealmate/robomealmate/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/rplidar_ros -- -j4 -l4
+[4.766s] Invoking command in '/home/robomealmate/robomealmate/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/rplidar_ros
+[4.959s] -- Install configuration: ""
+[4.968s] -- Execute custom install script
+[4.983s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[4.994s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[5.000s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[5.005s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[5.008s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[5.017s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[5.023s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[5.031s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[5.036s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[5.052s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[5.057s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[5.073s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[5.085s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[5.093s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[5.106s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[5.119s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[5.149s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[5.165s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[5.187s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[5.198s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[5.203s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[5.208s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[5.211s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[5.217s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[5.231s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[5.239s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[5.252s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[5.258s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[5.282s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[5.305s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[5.328s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[5.335s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[5.342s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[5.348s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[5.357s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[5.366s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[5.369s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[5.372s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[5.373s] -- Symlinking: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.dsv
+[5.522s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[5.530s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.531s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.565s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[5.567s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[5.570s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.xml
+[5.990s] Invoked command in '/home/robomealmate/robomealmate/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/rplidar_ros

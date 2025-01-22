@@ -1,0 +1,476 @@
+[1.043s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.044s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb878bee0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb878bee0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb86ef4f0>)
+[1.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.849s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robomealmate/robomealmate'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'ignore'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'ignore_ament_install'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['colcon_pkg']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'colcon_pkg'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['colcon_meta']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'colcon_meta'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['ros']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'ros'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['cmake', 'python']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'cmake'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'python'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extensions ['python_setup_py']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_controller) by extension 'python_setup_py'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[1.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[1.930s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['cmake', 'python']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'cmake'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['python_setup_py']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python_setup_py'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ignore', 'ignore_ament_install']
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore_ament_install'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_pkg']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_pkg'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_meta']
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_meta'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ros']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ros'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['cmake', 'python']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'cmake'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['python_setup_py']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python_setup_py'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore_ament_install'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_pkg']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_pkg'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_meta']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_meta'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ros']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ros'
+[1.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ros']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ros'
+[1.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['ignore', 'ignore_ament_install']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'ignore'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'ignore_ament_install'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['colcon_pkg']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'colcon_pkg'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['colcon_meta']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'colcon_meta'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['ros']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'ros'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['cmake', 'python']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'cmake'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'python'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['python_setup_py']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'python_setup_py'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'colcon_meta'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extensions ['ros']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomealmate) by extension 'ros'
+[1.980s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robomealmate' with type 'ros.ament_cmake' and name 'robomealmate'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.989s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.103s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/robomealmate/robomealmate/install
+[2.114s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 299 installed packages in /opt/ros/foxy
+[2.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.993s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.995s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robomealmate/robomealmate/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robomealmate/robomealmate/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/robomealmate/robomealmate/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.997s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.998s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.998s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.998s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.998s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.998s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robomealmate/robomealmate/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robomealmate/robomealmate/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[3.000s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_args' from command line to 'None'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_target' from command line to 'None'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_clean_cache' from command line to 'False'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_clean_first' from command line to 'False'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'cmake_force_configure' from command line to 'False'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'ament_cmake_args' from command line to 'None'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'catkin_cmake_args' from command line to 'None'
+[3.001s] Level 5:colcon.colcon_core.verb:set package 'robomealmate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.002s] DEBUG:colcon.colcon_core.verb:Building package 'robomealmate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robomealmate/robomealmate/build/robomealmate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robomealmate/robomealmate/install/robomealmate', 'merge_install': False, 'path': '/home/robomealmate/robomealmate/src/robomealmate', 'symlink_install': True, 'test_result_base': None}
+[3.003s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[3.003s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[3.003s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.004s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robomealmate/robomealmate/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robomealmate/robomealmate/install/rplidar_ros', 'merge_install': False, 'path': '/home/robomealmate/robomealmate/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[3.006s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[3.007s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[3.007s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.007s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[3.007s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.011s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.012s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control' with build type 'ament_cmake'
+[3.013s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control'
+[3.032s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.077s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robomealmate/robomealmate/src/diffdrive_arduino' with build type 'ament_cmake'
+[3.079s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robomealmate/robomealmate/src/diffdrive_arduino'
+[3.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.127s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robomealmate/robomealmate/src/robomealmate' with build type 'ament_cmake'
+[3.130s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robomealmate/robomealmate/src/robomealmate'
+[3.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robomealmate/robomealmate/src/rplidar_ros' with build type 'ament_cmake'
+[3.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robomealmate/robomealmate/src/rplidar_ros'
+[3.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control -- -j4 -l4
+[3.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j4 -l4
+[3.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/robomealmate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/robomealmate -- -j4 -l4
+[3.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/rplidar_ros -- -j4 -l4
+[3.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/robomealmate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/robomealmate -- -j4 -l4
+[3.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/robomealmate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/robomealmate
+[4.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomealmate)
+[4.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/robomealmate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/robomealmate
+[4.275s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake module files
+[4.278s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake config files
+[4.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomealmate', 'cmake_prefix_path')
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.ps1'
+[4.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.dsv'
+[4.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.sh'
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/pkgconfig/robomealmate.pc'
+[4.329s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/python3.8/site-packages'
+[4.330s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[4.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.ps1'
+[4.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.dsv'
+[4.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.sh'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.bash'
+[4.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.zsh'
+[4.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/robomealmate/share/colcon-core/packages/robomealmate)
+[4.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomealmate)
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake module files
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate' for CMake config files
+[4.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomealmate', 'cmake_prefix_path')
+[4.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.ps1'
+[4.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.dsv'
+[4.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/hook/cmake_prefix_path.sh'
+[4.406s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[4.406s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/pkgconfig/robomealmate.pc'
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/lib/python3.8/site-packages'
+[4.408s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/robomealmate/bin'
+[4.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.ps1'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.dsv'
+[4.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.sh'
+[4.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.bash'
+[4.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.zsh'
+[4.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/robomealmate/share/colcon-core/packages/robomealmate)
+[4.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j4 -l4
+[4.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/diffdrive_arduino
+[4.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/rplidar_ros -- -j4 -l4
+[4.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/rplidar_ros
+[4.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control -- -j4 -l4
+[4.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control
+[4.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[4.802s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake module files
+[4.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/diffdrive_arduino
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake config files
+[4.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[4.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[4.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[4.852s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib'
+[4.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[4.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[4.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[4.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[4.888s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/python3.8/site-packages'
+[4.890s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[4.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[4.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[4.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[4.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[4.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[4.957s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake module files
+[4.967s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino' for CMake config files
+[4.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[4.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[4.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[4.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[5.001s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib'
+[5.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[5.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[5.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[5.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[5.018s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[5.019s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/python3.8/site-packages'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/diffdrive_arduino/bin'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[5.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[5.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[5.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[5.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[5.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[5.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.055s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros' for CMake module files
+[5.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/rplidar_ros
+[5.061s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros' for CMake config files
+[5.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[5.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/lib'
+[5.081s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/bin'
+[5.081s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[5.082s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/lib/python3.8/site-packages'
+[5.083s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/bin'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[5.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[5.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.sh'
+[5.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.bash'
+[5.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[5.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[5.105s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros' for CMake module files
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros' for CMake config files
+[5.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[5.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[5.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[5.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[5.139s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/lib'
+[5.142s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/bin'
+[5.143s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/lib/python3.8/site-packages'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/rplidar_ros/bin'
+[5.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[5.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[5.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.sh'
+[5.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.bash'
+[5.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[5.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[5.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[5.176s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control' for CMake module files
+[5.183s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control' for CMake config files
+[5.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control
+[5.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[5.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[5.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[5.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[5.226s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/lib'
+[5.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[5.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[5.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[5.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[5.258s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/bin'
+[5.259s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[5.261s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/lib/python3.8/site-packages'
+[5.263s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/bin'
+[5.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[5.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[5.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[5.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[5.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[5.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[5.300s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control' for CMake module files
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control' for CMake config files
+[5.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[5.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[5.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[5.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[5.331s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/lib'
+[5.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[5.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[5.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[5.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/bin'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[5.346s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/lib/python3.8/site-packages'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control/bin'
+[5.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[5.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[5.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[5.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[5.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[5.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[5.371s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control_demos' with build type 'ament_cmake'
+[5.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control_demos'
+[5.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos -- -j4 -l4
+[6.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos -- -j4 -l4
+[6.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos
+[6.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[6.462s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos' for CMake module files
+[6.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos
+[6.467s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos' for CMake config files
+[6.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[6.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[6.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[6.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib'
+[6.482s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/bin'
+[6.483s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[6.485s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/python3.8/site-packages'
+[6.486s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/bin'
+[6.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[6.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[6.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[6.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[6.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[6.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[6.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[6.509s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos' for CMake module files
+[6.512s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos' for CMake config files
+[6.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[6.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[6.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[6.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[6.527s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib'
+[6.528s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/bin'
+[6.529s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[6.529s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/python3.8/site-packages'
+[6.530s] Level 1:colcon.colcon_core.environment:checking '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/bin'
+[6.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[6.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[6.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[6.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[6.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[6.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[6.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.553s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.557s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.610s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.611s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.255s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.ps1'
+[7.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robomealmate/robomealmate/install/_local_setup_util_ps1.py'
+[7.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.ps1'
+[7.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.sh'
+[7.294s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robomealmate/robomealmate/install/_local_setup_util_sh.py'
+[7.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.sh'
+[7.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.bash'
+[7.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.bash'
+[7.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robomealmate/robomealmate/install/local_setup.zsh'
+[7.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robomealmate/robomealmate/install/setup.zsh'

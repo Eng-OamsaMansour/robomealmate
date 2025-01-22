@@ -1,0 +1,35 @@
+[0.275s] Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control -- -j4 -l4
+[1.526s] [ 50%] Built target gazebo_ros2_control
+[1.566s] [100%] Built target gazebo_hardware_plugins
+[1.726s] Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control -- -j4 -l4
+[1.739s] Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control
+[1.839s] -- Install configuration: ""
+[1.849s] -- Execute custom install script
+[1.860s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[1.861s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[1.869s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[1.871s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[1.883s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[1.886s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[1.889s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[1.890s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[1.897s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[1.906s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[1.923s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[1.926s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[1.927s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[1.937s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[1.946s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[1.952s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[1.960s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[1.962s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[1.968s] -- Symlinking: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[2.020s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[2.022s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[2.027s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.029s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.032s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[2.033s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[2.037s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[2.038s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[2.176s] Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control

@@ -13,7 +13,7 @@
 
 
 
-  <link name="base">
+  <link name="base_link">
     <visual>
       <origin xyz="0.15 0.0 0.075"/>
       <geometry>
@@ -34,14 +34,14 @@
   <link name="base_footprint">  
   </link>
   <joint name="base_footprint_joint" type="fixed">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="base_footprint"/>
     <origin xyz="0 0 0.0" rpy="0 0 0"/>
   </joint>
 
   <!--front left wheel-->
   <joint name="front_left_wheel_joint" type="continuous">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="front_left_wheel"/>
     <origin xyz="0.25 0.32 0.0" rpy="-${pi/2} 0.0 0.0"/>
     <axis xyz="0.0 0.0 1.0"/>
@@ -65,7 +65,7 @@
 
     <!--front right wheel-->
   <joint name="front_right_wheel_joint" type="continuous">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="front_right_wheel"/>
     <origin xyz="0.25 -0.32 0.0" rpy=" ${pi/2} 0.0 0.0"/>
     <axis xyz="0.0 0.0 -1.0"/>
@@ -89,7 +89,7 @@
   </link>
   <!--back left wheel-->
   <joint name="back_left_wheel_joint" type="continuous">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="back_left_wheel"/>
     <origin xyz="0.05 0.32 0.0" rpy="-${pi/2} 0.0 0.0"/>
     <axis xyz="0.0 0.0 1.0"/>
@@ -114,7 +114,7 @@
 
   <!--back right wheel-->
   <joint name="back_right_wheel_joint" type="continuous">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="back_right_wheel"/>
     <origin xyz="0.05 -0.32 0.0" rpy=" ${pi/2} 0.0 0.0"/>
     <axis xyz="0.0 0.0 -1.0"/>
@@ -138,7 +138,7 @@
   </link>
   <!--Left Feet-->
   <joint name="left_feet_joint" type="fixed">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="left_feet"/>
     <origin xyz="0.15 0.15 0.34"/>
     <axis xyz="0.0 0.0 0.0"/>
@@ -167,7 +167,7 @@
 
   <!--Right Feet-->
   <joint name="right_feet_joint" type="fixed">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="right_feet"/>
     <origin xyz="0.15 -0.15 0.34"/>
     <axis xyz="0.0 0.0 0.0"/>
@@ -192,7 +192,7 @@
   </link>
   <!-- Body -->
   <joint name="body_joint" type="fixed">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="body"/>
     <origin xyz="0.15 0.0 0.73"/>
     <axis xyz="0.0 0.0 0.0"/>    
@@ -217,7 +217,7 @@
 
   <!--head-->
   <joint name="head_joint" type="fixed">
-    <parent link="base"/>
+    <parent link="base_link"/>
     <child link="head"/>
     <origin xyz="0.15 0.0 1.08"/>
     <axis xyz="0.0 0.0 0.0"/>
@@ -238,7 +238,7 @@
       <origin xyz="0.0 0.0 0.0" rpy= "0.0 0.0 0.0"/>
     </xacro:inertial_box> 
   </link>
-  <gazebo reference="base">
+  <gazebo reference="base_link">
     <material>Gazebo/Blue</material>
   </gazebo>
   <gazebo reference="front_left_wheel">

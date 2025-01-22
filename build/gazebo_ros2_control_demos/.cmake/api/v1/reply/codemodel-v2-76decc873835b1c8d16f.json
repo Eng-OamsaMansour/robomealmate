@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gazebo_ros2_control_demos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_diff_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_diff_drive-f2cf40701c43482f77c9.json",
+					"name" : "example_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_effort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_effort-b6525cbb12bd7e47361e.json",
+					"name" : "example_effort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_gripper-5ca5d678b9db652c2738.json",
+					"name" : "example_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_position-9c33c00b4107cb242ea0.json",
+					"name" : "example_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_velocity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_velocity-b3b38828d456b7d542ea.json",
+					"name" : "example_velocity",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros2_control_demos_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros2_control_demos_uninstall-4ba5f1167d7e60906593.json",
+					"name" : "gazebo_ros2_control_demos_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-16eecb8ff8b60ada7b91.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos",
+		"source" : "/home/robomealmate/robomealmate/src/gazebo_ros2_control/gazebo_ros2_control_demos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

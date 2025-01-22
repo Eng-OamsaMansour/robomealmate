@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.000977] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.001276] (robomealmate) JobQueued: {'identifier': 'robomealmate', 'dependencies': OrderedDict()}
+[0.002011] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.034549] (robomealmate) JobStarted: {'identifier': 'robomealmate'}
+[0.079346] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.083820] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/robomealmate/robomealmate/src/diffdrive_arduino', '-DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/diffdrive_arduino'], 'cwd': '/home/robomealmate/robomealmate/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'robomealmate'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1467'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/robomealmate'), ('OLDPWD', '/home/robomealmate'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1379'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomealmate'), ('WINDOWID', '46137350'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '9:33867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robomealmate:@/tmp/.ICE-unix/1391,unix/robomealmate:/tmp/.ICE-unix/1391'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '005cd0e328bc49b99d30af45eeb287d6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/robomealmate/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robomealmate'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/robomealmate/robomealmate/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100657] (-) TimerEvent: {}
+[0.152671] (robomealmate) JobProgress: {'identifier': 'robomealmate', 'progress': 'cmake'}
+[0.179664] (robomealmate) JobProgress: {'identifier': 'robomealmate', 'progress': 'build'}
+[0.184811] (robomealmate) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robomealmate/robomealmate/build/robomealmate', '--', '-j4', '-l4'], 'cwd': '/home/robomealmate/robomealmate/build/robomealmate', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'robomealmate'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1467'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/robomealmate'), ('OLDPWD', '/home/robomealmate'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1379'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomealmate'), ('WINDOWID', '46137350'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '9:33867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robomealmate:@/tmp/.ICE-unix/1391,unix/robomealmate:/tmp/.ICE-unix/1391'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '005cd0e328bc49b99d30af45eeb287d6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/robomealmate/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robomealmate'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/robomealmate/robomealmate/build/robomealmate'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.202337] (-) TimerEvent: {}
+[0.222880] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.302016] (-) TimerEvent: {}
+[0.371817] (diffdrive_arduino) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.402203] (-) TimerEvent: {}
+[0.420036] (robomealmate) CommandEnded: {'returncode': 0}
+[0.423806] (robomealmate) JobProgress: {'identifier': 'robomealmate', 'progress': 'install'}
+[0.473199] (robomealmate) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robomealmate/robomealmate/build/robomealmate'], 'cwd': '/home/robomealmate/robomealmate/build/robomealmate', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'robomealmate'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1467'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/robomealmate'), ('OLDPWD', '/home/robomealmate'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1379'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomealmate'), ('WINDOWID', '46137350'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '9:33867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robomealmate:@/tmp/.ICE-unix/1391,unix/robomealmate:/tmp/.ICE-unix/1391'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '005cd0e328bc49b99d30af45eeb287d6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/robomealmate/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robomealmate'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/robomealmate/robomealmate/build/robomealmate'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.502444] (-) TimerEvent: {}
+[0.521906] (robomealmate) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.523147] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config\n'}
+[0.524370] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/mapper_params_online_async.yaml\n'}
+[0.525355] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/empty.yaml\n'}
+[0.526870] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/config/controller.yaml\n'}
+[0.528471] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description\n'}
+[0.530115] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/gazebo_controller.xacro\n'}
+[0.534086] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/inertial_macros.xacro\n'}
+[0.536469] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/robot_core.xacro\n'}
+[0.539003] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/robot.urdf.xacro\n'}
+[0.541141] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/camera.xacro\n'}
+[0.542519] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/lidar.xacro\n'}
+[0.545871] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/description/ros2_controller.xacro\n'}
+[0.546724] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch\n'}
+[0.547398] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/camera.launch.py\n'}
+[0.548248] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/rsp.launch.py\n'}
+[0.548926] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/robot.launch.py\n'}
+[0.552188] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/simulation.launch.py\n'}
+[0.554180] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/launch/lidar.launch.py\n'}
+[0.554902] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/worlds\n'}
+[0.556034] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/worlds/empty.world\n'}
+[0.556961] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/worlds/tables.world\n'}
+[0.557449] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/package_run_dependencies/robomealmate\n'}
+[0.557786] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/parent_prefix_path/robomealmate\n'}
+[0.558162] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/ament_prefix_path.sh\n'}
+[0.558756] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/ament_prefix_path.dsv\n'}
+[0.559363] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/path.sh\n'}
+[0.560407] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/environment/path.dsv\n'}
+[0.560880] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.bash\n'}
+[0.561503] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.sh\n'}
+[0.562629] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.zsh\n'}
+[0.563335] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/local_setup.dsv\n'}
+[0.564015] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.dsv\n'}
+[0.564780] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/ament_index/resource_index/packages/robomealmate\n'}
+[0.565635] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/cmake/robomealmateConfig.cmake\n'}
+[0.566303] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/cmake/robomealmateConfig-version.cmake\n'}
+[0.567162] (robomealmate) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/robomealmate/share/robomealmate/package.xml\n'}
+[0.567847] (robomealmate) CommandEnded: {'returncode': 0}
+[0.602815] (-) TimerEvent: {}
+[0.656943] (robomealmate) JobEnded: {'identifier': 'robomealmate', 'rc': 0}
+[0.702980] (-) TimerEvent: {}
+[0.803638] (-) TimerEvent: {}
+[0.904332] (-) TimerEvent: {}
+[1.004976] (-) TimerEvent: {}
+[1.105764] (-) TimerEvent: {}
+[1.206395] (-) TimerEvent: {}
+[1.307193] (-) TimerEvent: {}
+[1.338619] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.407328] (-) TimerEvent: {}
+[1.508047] (-) TimerEvent: {}
+[1.518459] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.531787] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.608223] (-) TimerEvent: {}
+[1.708914] (-) TimerEvent: {}
+[1.809632] (-) TimerEvent: {}
+[1.910346] (-) TimerEvent: {}
+[2.011255] (-) TimerEvent: {}
+[2.112048] (-) TimerEvent: {}
+[2.212809] (-) TimerEvent: {}
+[2.313556] (-) TimerEvent: {}
+[2.414269] (-) TimerEvent: {}
+[2.513560] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.514583] (-) TimerEvent: {}
+[2.615700] (-) TimerEvent: {}
+[2.699079] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.704354] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.715860] (-) TimerEvent: {}
+[2.816598] (-) TimerEvent: {}
+[2.917288] (-) TimerEvent: {}
+[3.018003] (-) TimerEvent: {}
+[3.118705] (-) TimerEvent: {}
+[3.219452] (-) TimerEvent: {}
+[3.224160] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)\n'}
+[3.319641] (-) TimerEvent: {}
+[3.420491] (-) TimerEvent: {}
+[3.521182] (-) TimerEvent: {}
+[3.621952] (-) TimerEvent: {}
+[3.723094] (-) TimerEvent: {}
+[3.824305] (-) TimerEvent: {}
+[3.925003] (-) TimerEvent: {}
+[4.025708] (-) TimerEvent: {}
+[4.126418] (-) TimerEvent: {}
+[4.227178] (-) TimerEvent: {}
+[4.327927] (-) TimerEvent: {}
+[4.428826] (-) TimerEvent: {}
+[4.529576] (-) TimerEvent: {}
+[4.630285] (-) TimerEvent: {}
+[4.731001] (-) TimerEvent: {}
+[4.831691] (-) TimerEvent: {}
+[4.932580] (-) TimerEvent: {}
+[5.033260] (-) TimerEvent: {}
+[5.133972] (-) TimerEvent: {}
+[5.234432] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.234983] (-) TimerEvent: {}
+[5.335594] (-) TimerEvent: {}
+[5.400633] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[5.426382] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/robomealmate/robomealmate/build/diffdrive_arduino\n'}
+[5.435876] (-) TimerEvent: {}
+[5.450794] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[5.452949] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[5.454112] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robomealmate/robomealmate/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/robomealmate/robomealmate/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'robomealmate'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1467'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/robomealmate'), ('OLDPWD', '/home/robomealmate'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1379'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomealmate'), ('WINDOWID', '46137350'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '9:33867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robomealmate:@/tmp/.ICE-unix/1391,unix/robomealmate:/tmp/.ICE-unix/1391'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '005cd0e328bc49b99d30af45eeb287d6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/robomealmate/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robomealmate'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/robomealmate/robomealmate/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.536080] (-) TimerEvent: {}
+[5.637296] (-) TimerEvent: {}
+[5.643691] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target diffdrive_arduino\x1b[0m\n'}
+[5.737942] (-) TimerEvent: {}
+[5.840483] (-) TimerEvent: {}
+[5.941972] (-) TimerEvent: {}
+[6.043620] (-) TimerEvent: {}
+[6.138420] (diffdrive_arduino) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[6.143904] (-) TimerEvent: {}
+[6.157187] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[6.165150] (diffdrive_arduino) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[6.244074] (-) TimerEvent: {}
+[6.344900] (-) TimerEvent: {}
+[6.445859] (-) TimerEvent: {}
+[6.548617] (-) TimerEvent: {}
+[6.649997] (-) TimerEvent: {}
+[6.751053] (-) TimerEvent: {}
+[6.853400] (-) TimerEvent: {}
+[6.955917] (-) TimerEvent: {}
+[7.060170] (-) TimerEvent: {}
+[7.164478] (-) TimerEvent: {}
+[7.268391] (-) TimerEvent: {}
+[7.373164] (-) TimerEvent: {}
+[7.475125] (-) TimerEvent: {}
+[7.577879] (-) TimerEvent: {}
+[7.680333] (-) TimerEvent: {}
+[7.782041] (-) TimerEvent: {}
+[7.884390] (-) TimerEvent: {}
+[7.986492] (-) TimerEvent: {}
+[8.088521] (-) TimerEvent: {}
+[8.190226] (-) TimerEvent: {}
+[8.292734] (-) TimerEvent: {}
+[8.395094] (-) TimerEvent: {}
+[8.497003] (-) TimerEvent: {}
+[8.599581] (-) TimerEvent: {}
+[8.701511] (-) TimerEvent: {}
+[8.803852] (-) TimerEvent: {}
+[8.931431] (-) TimerEvent: {}
+[9.033523] (-) TimerEvent: {}
+[9.135034] (-) TimerEvent: {}
+[9.236998] (-) TimerEvent: {}
+[9.338937] (-) TimerEvent: {}
+[9.440676] (-) TimerEvent: {}
+[9.542779] (-) TimerEvent: {}
+[9.644892] (-) TimerEvent: {}
+[9.746416] (-) TimerEvent: {}
+[9.848530] (-) TimerEvent: {}
+[9.950645] (-) TimerEvent: {}
+[10.052557] (-) TimerEvent: {}
+[10.154473] (-) TimerEvent: {}
+[10.256494] (-) TimerEvent: {}
+[10.358617] (-) TimerEvent: {}
+[10.460500] (-) TimerEvent: {}
+[10.562841] (-) TimerEvent: {}
+[10.664649] (-) TimerEvent: {}
+[10.766708] (-) TimerEvent: {}
+[10.868942] (-) TimerEvent: {}
+[10.970935] (-) TimerEvent: {}
+[11.072694] (-) TimerEvent: {}
+[11.174621] (-) TimerEvent: {}
+[11.276673] (-) TimerEvent: {}
+[11.378791] (-) TimerEvent: {}
+[11.480891] (-) TimerEvent: {}
+[11.582826] (-) TimerEvent: {}
+[11.684646] (-) TimerEvent: {}
+[11.786375] (-) TimerEvent: {}
+[11.890152] (-) TimerEvent: {}
+[11.991846] (-) TimerEvent: {}
+[12.094068] (-) TimerEvent: {}
+[12.195940] (-) TimerEvent: {}
+[12.298102] (-) TimerEvent: {}
+[12.400196] (-) TimerEvent: {}
+[12.502003] (-) TimerEvent: {}
+[12.603810] (-) TimerEvent: {}
+[12.705638] (-) TimerEvent: {}
+[12.807600] (-) TimerEvent: {}
+[12.909504] (-) TimerEvent: {}
+[13.011440] (-) TimerEvent: {}
+[13.113382] (-) TimerEvent: {}
+[13.215176] (-) TimerEvent: {}
+[13.317185] (-) TimerEvent: {}
+[13.419294] (-) TimerEvent: {}
+[13.521261] (-) TimerEvent: {}
+[13.623329] (-) TimerEvent: {}
+[13.725221] (-) TimerEvent: {}
+[13.827356] (-) TimerEvent: {}
+[13.929262] (-) TimerEvent: {}
+[14.031015] (-) TimerEvent: {}
+[14.132927] (-) TimerEvent: {}
+[14.234713] (-) TimerEvent: {}
+[14.336776] (-) TimerEvent: {}
+[14.439154] (-) TimerEvent: {}
+[14.540741] (-) TimerEvent: {}
+[14.642090] (-) TimerEvent: {}
+[14.743077] (-) TimerEvent: {}
+[14.844087] (-) TimerEvent: {}
+[14.945084] (-) TimerEvent: {}
+[15.046220] (-) TimerEvent: {}
+[15.147347] (-) TimerEvent: {}
+[15.248160] (-) TimerEvent: {}
+[15.348943] (-) TimerEvent: {}
+[15.449731] (-) TimerEvent: {}
+[15.550525] (-) TimerEvent: {}
+[15.651457] (-) TimerEvent: {}
+[15.752398] (-) TimerEvent: {}
+[15.853177] (-) TimerEvent: {}
+[15.953934] (-) TimerEvent: {}
+[16.054899] (-) TimerEvent: {}
+[16.155675] (-) TimerEvent: {}
+[16.256466] (-) TimerEvent: {}
+[16.357281] (-) TimerEvent: {}
+[16.458076] (-) TimerEvent: {}
+[16.559006] (-) TimerEvent: {}
+[16.659844] (-) TimerEvent: {}
+[16.760589] (-) TimerEvent: {}
+[16.861362] (-) TimerEvent: {}
+[16.962120] (-) TimerEvent: {}
+[17.063083] (-) TimerEvent: {}
+[17.163904] (-) TimerEvent: {}
+[17.264662] (-) TimerEvent: {}
+[17.365383] (-) TimerEvent: {}
+[17.466143] (-) TimerEvent: {}
+[17.567154] (-) TimerEvent: {}
+[17.668041] (-) TimerEvent: {}
+[17.768945] (-) TimerEvent: {}
+[17.796140] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[17.869251] (-) TimerEvent: {}
+[17.970077] (-) TimerEvent: {}
+[18.071666] (-) TimerEvent: {}
+[18.172390] (-) TimerEvent: {}
+[18.273241] (-) TimerEvent: {}
+[18.374076] (-) TimerEvent: {}
+[18.475064] (-) TimerEvent: {}
+[18.575997] (-) TimerEvent: {}
+[18.676921] (-) TimerEvent: {}
+[18.778119] (-) TimerEvent: {}
+[18.815864] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[18.872136] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[18.876032] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[18.877232] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robomealmate/robomealmate/build/diffdrive_arduino'], 'cwd': '/home/robomealmate/robomealmate/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'robomealmate'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1467'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/robomealmate'), ('OLDPWD', '/home/robomealmate'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1379'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robomealmate'), ('WINDOWID', '46137350'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '9:33867'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robomealmate:@/tmp/.ICE-unix/1391,unix/robomealmate:/tmp/.ICE-unix/1391'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '005cd0e328bc49b99d30af45eeb287d6'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/robomealmate/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robomealmate'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/robomealmate/robomealmate/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9fc0e6a4c18ac0cf21248eca678be1e7'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[18.888298] (-) TimerEvent: {}
+[18.919943] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.921305] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include/\n'}
+[18.922189] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino\n'}
+[18.923050] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/arduino_comms.h\n'}
+[18.923846] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/diffdrive_arduino.h\n'}
+[18.924245] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/wheel.h\n'}
+[18.924643] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/config.h\n'}
+[18.925428] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[18.931110] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[18.931786] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino_plugin.xml\n'}
+[18.932528] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino_plugin.xml\n'}
+[18.933160] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[18.934294] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[18.936000] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[18.937616] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[18.938794] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[18.940726] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[18.941505] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[18.942601] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[18.943899] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[18.944951] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[18.946022] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[18.947153] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[18.948227] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[18.949712] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[18.951102] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[18.952643] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.953790] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.955145] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.956364] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[18.957246] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[18.958324] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[18.964602] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[18.988730] (-) TimerEvent: {}
+[19.045422] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[19.049189] (-) EventReactorShutdown: {}

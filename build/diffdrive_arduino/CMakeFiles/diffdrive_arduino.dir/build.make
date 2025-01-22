@@ -161,14 +161,13 @@ libdiffdrive_arduino.so: /opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesuppor
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_c.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
-libdiffdrive_arduino.so: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libdiffdrive_arduino.so: /opt/ros/foxy/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libclass_loader.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/librcutils.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libament_index_cpp.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libclass_loader.so
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/librcpputils.so
-libdiffdrive_arduino.so: /home/robomealmate/robomealmate/install/serial/lib/libserial.a
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/liblibstatistics_collector.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -184,7 +183,7 @@ libdiffdrive_arduino.so: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/librmw_implementation.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/librmw.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-libdiffdrive_arduino.so: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0
+libdiffdrive_arduino.so: /usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libyaml.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
@@ -198,7 +197,7 @@ libdiffdrive_arduino.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesuppor
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libtracetools.so
-libdiffdrive_arduino.so: /opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libdiffdrive_arduino.so: /opt/ros/foxy/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
 libdiffdrive_arduino.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so

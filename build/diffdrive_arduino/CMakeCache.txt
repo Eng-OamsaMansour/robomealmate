@@ -248,13 +248,13 @@ FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
 FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/foxy/lib/libfastrtps.so
 
 //Path to a library.
-OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
 
 //Path to a file.
 OPENSSL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
@@ -266,19 +266,19 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
 PYTHON_VERSION:STRING=
 
 //Name of the computer/site where compile is being run
-SITE:STRING=ubuntu
+SITE:STRING=robomealmate
 
 //Path to a file.
 TINYXML2_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-TINYXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+TINYXML2_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libtinyxml2.so
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/robomealmate/robomealmate/install/serial/lib/libserial.a
+_lib:FILEPATH=/opt/ros/foxy/lib/libclass_loader.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
@@ -338,7 +338,7 @@ builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
 class_loader_DIR:PATH=/opt/ros/foxy/share/class_loader/cmake
 
 //The directory containing a CMake configuration file for console_bridge.
-console_bridge_DIR:PATH=/opt/ros/foxy/lib/x86_64-linux-gnu/console_bridge/cmake
+console_bridge_DIR:PATH=/opt/ros/foxy/lib/aarch64-linux-gnu/console_bridge/cmake
 
 //The directory containing a CMake configuration file for control_msgs.
 control_msgs_DIR:PATH=/opt/ros/foxy/share/control_msgs/cmake
@@ -347,7 +347,7 @@ control_msgs_DIR:PATH=/opt/ros/foxy/share/control_msgs/cmake
 diffdrive_arduino_BINARY_DIR:STATIC=/home/robomealmate/robomealmate/build/diffdrive_arduino
 
 //Dependencies for the target
-diffdrive_arduino_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;/opt/ros/foxy/lib/libfake_components.so;general;/opt/ros/foxy/lib/libhardware_interface.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/librosidl_typesupport_c.so;general;/opt/ros/foxy/lib/librosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/librosidl_runtime_c.so;general;/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so;general;control_msgs::control_msgs__rosidl_generator_c;general;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_c.so;general;rosidl_typesupport_c::rosidl_typesupport_c;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_cpp.so;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_cpp::rosidl_typesupport_cpp;general;action_msgs::action_msgs__rosidl_generator_c;general;action_msgs::action_msgs__rosidl_typesupport_introspection_c;general;action_msgs::action_msgs__rosidl_typesupport_c;general;action_msgs::action_msgs__rosidl_typesupport_introspection_cpp;general;action_msgs::action_msgs__rosidl_typesupport_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;trajectory_msgs::trajectory_msgs__rosidl_generator_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_introspection_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_introspection_cpp;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_cpp;general;/opt/ros/foxy/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0;general;/opt/ros/foxy/lib/libclass_loader.so;general;console_bridge::console_bridge;general;/opt/ros/foxy/lib/librcutils.so;general;dl;general;ament_index_cpp::ament_index_cpp;general;class_loader::class_loader;general;rcpputils::rcpputils;general;tinyxml2::tinyxml2;general;stdc++fs;general;/opt/ros/foxy/lib/librcpputils.so;general;rcutils::rcutils;general;/home/robomealmate/robomealmate/install/serial/lib/libserial.a;
+diffdrive_arduino_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;/opt/ros/foxy/lib/libfake_components.so;general;/opt/ros/foxy/lib/libhardware_interface.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_c.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/librosidl_typesupport_c.so;general;/opt/ros/foxy/lib/librosidl_typesupport_cpp.so;general;/opt/ros/foxy/lib/librosidl_runtime_c.so;general;/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so;general;/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_generator_c.so;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so;general;control_msgs::control_msgs__rosidl_generator_c;general;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_c.so;general;rosidl_typesupport_c::rosidl_typesupport_c;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;general;/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_cpp.so;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_cpp::rosidl_typesupport_cpp;general;action_msgs::action_msgs__rosidl_generator_c;general;action_msgs::action_msgs__rosidl_typesupport_introspection_c;general;action_msgs::action_msgs__rosidl_typesupport_c;general;action_msgs::action_msgs__rosidl_typesupport_introspection_cpp;general;action_msgs::action_msgs__rosidl_typesupport_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;trajectory_msgs::trajectory_msgs__rosidl_generator_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_introspection_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_introspection_cpp;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_cpp;general;/opt/ros/foxy/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0;general;/opt/ros/foxy/lib/libclass_loader.so;general;console_bridge::console_bridge;general;/opt/ros/foxy/lib/librcutils.so;general;dl;general;ament_index_cpp::ament_index_cpp;general;class_loader::class_loader;general;rcpputils::rcpputils;general;tinyxml2::tinyxml2;general;stdc++fs;general;/opt/ros/foxy/lib/librcpputils.so;general;rcutils::rcutils;
 
 //Value Computed by CMake
 diffdrive_arduino_SOURCE_DIR:STATIC=/home/robomealmate/robomealmate/src/diffdrive_arduino
@@ -377,10 +377,10 @@ libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cma
 libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/foxy/share/pluginlib/cmake
@@ -461,10 +461,10 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/foxy/share/rosidl_typesuppo
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/cmake
 
 //The directory containing a CMake configuration file for serial.
-serial_DIR:PATH=/home/robomealmate/robomealmate/install/serial/share/serial/cmake
+serial_DIR:PATH=serial_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for spdlog.
-spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
+spdlog_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/spdlog
 
 //The directory containing a CMake configuration file for spdlog_vendor.
 spdlog_vendor_DIR:PATH=/opt/ros/foxy/share/spdlog_vendor/cmake
@@ -649,7 +649,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding FastRTPS
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/foxy/include][/opt/ros/foxy/lib/libfastrtps.so;/opt/ros/foxy/lib/libfastcdr.so][v()]
 //Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/aarch64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10(3)]
 //Details about finding Threads
@@ -676,7 +676,7 @@ _OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
 _OPENSSL_INCLUDE_DIRS:INTERNAL=
 _OPENSSL_LDFLAGS:INTERNAL=-lssl;-lcrypto
 _OPENSSL_LDFLAGS_OTHER:INTERNAL=
-_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 _OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
 _OPENSSL_LIBRARY_DIRS:INTERNAL=
 _OPENSSL_LIBS:INTERNAL=
@@ -711,5 +711,5 @@ __pkg_config_checked__OPENSSL:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=/usr/lib/aarch64-linux-gnu
 

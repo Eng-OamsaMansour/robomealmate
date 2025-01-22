@@ -1,0 +1,56 @@
+[0.086s] Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/diffdrive_arduino
+[0.221s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.371s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.336s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.530s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.697s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.702s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.222s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[5.232s] -- Configuring done
+[5.398s] -- Generating done
+[5.424s] -- Build files have been written to: /home/robomealmate/robomealmate/build/diffdrive_arduino
+[5.449s] Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/diffdrive_arduino
+[5.459s] Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j4 -l4
+[5.642s] [35m[1mScanning dependencies of target diffdrive_arduino[0m
+[6.137s] [ 25%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[6.155s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[6.163s] [ 75%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[17.794s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[18.814s] [100%] Built target diffdrive_arduino
+[18.871s] Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/diffdrive_arduino -- -j4 -l4
+[18.883s] Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/diffdrive_arduino
+[18.918s] -- Install configuration: ""
+[18.919s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include/
+[18.920s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino
+[18.921s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/arduino_comms.h
+[18.921s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/diffdrive_arduino.h
+[18.922s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/wheel.h
+[18.922s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/include//diffdrive_arduino/config.h
+[18.923s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[18.929s] -- Set runtime path of "/home/robomealmate/robomealmate/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+[18.929s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino_plugin.xml
+[18.930s] -- Up-to-date: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino_plugin.xml
+[18.931s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[18.932s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[18.934s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[18.935s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[18.936s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[18.938s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[18.939s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[18.940s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[18.942s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[18.943s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[18.944s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[18.945s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[18.946s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[18.947s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[18.949s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[18.950s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.952s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.953s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[18.954s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[18.955s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[18.956s] -- Installing: /home/robomealmate/robomealmate/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[18.965s] Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/diffdrive_arduino

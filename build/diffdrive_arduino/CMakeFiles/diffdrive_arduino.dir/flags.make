@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Ddiffdrive_arduino_EXPORTS
 
-CXX_INCLUDES = -I/home/robomealmate/robomealmate/src/diffdrive_arduino/include -I/home/robomealmate/robomealmate/install/serial/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/robomealmate/robomealmate/src/diffdrive_arduino/include -isystem /opt/ros/foxy/include 
 

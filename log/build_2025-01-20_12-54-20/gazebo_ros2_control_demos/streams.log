@@ -1,0 +1,46 @@
+[0.165s] Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos -- -j4 -l4
+[0.720s] [ 20%] Built target example_gripper
+[0.734s] [ 40%] Built target example_effort
+[0.759s] [ 60%] Built target example_velocity
+[0.766s] [ 80%] Built target example_position
+[0.960s] [100%] Built target example_diff_drive
+[1.008s] Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos -- -j4 -l4
+[1.022s] Invoking command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos
+[1.067s] -- Install configuration: ""
+[1.069s] -- Execute custom install script
+[1.073s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[1.074s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[1.075s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[1.076s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[1.078s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[1.081s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml
+[1.082s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml
+[1.083s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[1.084s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[1.085s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[1.088s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[1.089s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[1.090s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[1.091s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[1.092s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[1.097s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[1.098s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[1.099s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[1.101s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[1.102s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[1.104s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[1.106s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[1.108s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[1.109s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[1.115s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[1.116s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[1.117s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[1.117s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[1.118s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[1.119s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[1.120s] -- Symlinking: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[1.158s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[1.160s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[1.161s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[1.163s] -- Up-to-date symlink: /home/robomealmate/robomealmate/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[1.172s] Invoked command in '/home/robomealmate/robomealmate/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/robomealmate/robomealmate/install/gazebo_ros2_control:/home/robomealmate/robomealmate/install/rplidar_ros:/home/robomealmate/robomealmate/install/robomealmate:/home/robomealmate/robomealmate/install/gazebo_ros2_control_demos:/home/robomealmate/robomealmate/install/diffdrive_arduino:/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/gazebo_ros2_control_demos

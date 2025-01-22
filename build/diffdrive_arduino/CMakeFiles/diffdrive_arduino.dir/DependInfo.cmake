@@ -21,7 +21,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/robomealmate/robomealmate/src/diffdrive_arduino/include"
-  "/home/robomealmate/robomealmate/install/serial/include"
   "/opt/ros/foxy/include"
   )
 

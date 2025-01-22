@@ -94,10 +94,7 @@ return_type DiffDriveArduino::start()
   RCLCPP_INFO(logger_, "Starting Controller...");
 
   arduino_.sendEmptyMsg();
-  // arduino.setPidValues(9,7,0,100);
-  // arduino.setPidValues(14,7,0,100);
- // arduino_.setPidValues(30, 20, 0, 100);
-  arduino_.setMotorValues(30,30,30,30);
+
   status_ = hardware_interface::status::STARTED;
 
   return return_type::OK;

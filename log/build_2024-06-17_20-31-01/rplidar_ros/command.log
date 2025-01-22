@@ -1,0 +1,6 @@
+Invoking command in '/home/robomealmate/robomealmate/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/rplidar_ros
+Invoked command in '/home/robomealmate/robomealmate/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/rplidar_ros
+Invoking command in '/home/robomealmate/robomealmate/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/robomealmate/robomealmate/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robomealmate/robomealmate/build/rplidar_ros -- -j4 -l4
+Invoking command in '/home/robomealmate/robomealmate/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/rplidar_ros
+Invoked command in '/home/robomealmate/robomealmate/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robomealmate/robomealmate/build/rplidar_ros

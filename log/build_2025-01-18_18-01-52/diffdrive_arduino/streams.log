@@ -1,0 +1,57 @@
+[0.094s] Invoking command in '/home/robomealmate/robomealmate/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/diffdrive_arduino
+[1.165s] -- The C compiler identification is GNU 9.4.0
+[1.982s] -- The CXX compiler identification is GNU 9.4.0
+[2.009s] -- Check for working C compiler: /usr/bin/cc
+[2.367s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.373s] -- Detecting C compiler ABI info
+[2.721s] -- Detecting C compiler ABI info - done
+[2.761s] -- Detecting C compile features
+[2.771s] -- Detecting C compile features - done
+[2.786s] -- Check for working CXX compiler: /usr/bin/c++
+[3.182s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.187s] -- Detecting CXX compiler ABI info
+[3.578s] -- Detecting CXX compiler ABI info - done
+[3.618s] -- Detecting CXX compile features
+[3.620s] -- Detecting CXX compile features - done
+[3.649s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.824s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.826s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.099s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.531s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.383s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.646s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.531s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.544s] -- Looking for pthread.h
+[7.921s] -- Looking for pthread.h - found
+[7.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.251s] -- Looking for pthread_create in pthreads
+[8.529s] -- Looking for pthread_create in pthreads - not found
+[8.530s] -- Looking for pthread_create in pthread
+[8.899s] -- Looking for pthread_create in pthread - found
+[8.904s] -- Found Threads: TRUE  
+[9.666s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[11.846s] CMake Error at CMakeLists.txt:9 (find_package):
+[11.846s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[11.847s]   asked CMake to find a package configuration file provided by "serial", but
+[11.847s]   CMake did not find one.
+[11.847s] 
+[11.847s]   Could not find a package configuration file provided by "serial" with any
+[11.848s]   of the following names:
+[11.848s] 
+[11.848s]     serialConfig.cmake
+[11.849s]     serial-config.cmake
+[11.849s] 
+[11.849s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[11.850s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[11.850s]   provides a separate development package or SDK, be sure it has been
+[11.851s]   installed.
+[11.852s] 
+[11.852s] 
+[11.863s] -- Configuring incomplete, errors occurred!
+[11.863s] See also "/home/robomealmate/robomealmate/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[11.864s] See also "/home/robomealmate/robomealmate/build/diffdrive_arduino/CMakeFiles/CMakeError.log".
+[11.899s] Invoked command in '/home/robomealmate/robomealmate/build/diffdrive_arduino' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robomealmate/robomealmate/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/robomealmate/robomealmate/install/diffdrive_arduino
